@@ -1,0 +1,19 @@
+{
+  "name": "prisma-case-format-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format-prisma": "prisma-case-format -f ./prisma/schema.prisma -c ./prisma/.prisma-case-format -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.8.1"
+  },
+  "dependencies": {
+    "prisma-case-format": "^2.2.0"
+  }
+}

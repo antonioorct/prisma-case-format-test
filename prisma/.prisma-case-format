@@ -1,0 +1,6 @@
+default: "table=pascal; mapTable=snake,plural; field=camel; mapField=snake; enum=pascal,singular; mapEnum=snake,singular"
+override:
+  Model:
+    field:
+      columnsSingular: 'field=camel,singular'
+      columnsSingulars: 'field=camel,singular'
